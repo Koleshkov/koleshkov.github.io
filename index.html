@@ -5,23 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/site.css">
+    <link rel="stylesheet" href="styles/site.css">
+    <link rel="stylesheet" href="fonts/open-iconic-master/font/css/open-iconic.css">
     <title>Koleshkov</title>
 </head>
 <body>
-  
-  <header class="navbar">
-    <a href="#" class="navbar_logo">
-      KOLESHKOV
-    </a>
-  </header>
-  <div class="sub_navbar">
-    <div class="menu">
-      <a href="#" class="menu_link">Проекты</a>
-      <a href="#" class="menu_link">Резюме</a>
-      <a href="#" class="menu_link">О себе</a>
-    </div>
+
+  <div class="firts_section_background">
   </div>
 
+  <header class="navbar">
+    <a href="mailto:koleshkov@outlook.com" class="navbar_logo">
+      koleshkov
+    </a>
+    <a  class="collapse_btn" onclick="collapseMenu()">
+      <span class="oi" data-glyph="menu"></span>
+    </a>
+    
+  </header>
+  
+  <div class="menu collapsed" id="menu">
+      <a href="#" class="menu_link">About me</a>
+      <a href="#" class="menu_link">Projectets</a>
+      <a href="#" class="menu_link">Resume</a>
+      <a href="#" class="menu_link">Contacts</a>
+  </div>
+
+  <script src="/scripts/sqript.js"></script>
 </body>
 </html>
